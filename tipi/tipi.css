@@ -34,6 +34,14 @@ h1, h2, h3, h4 {
     color: #0232E0;
     transform: translateY(-1px);
 }
+.nav .login,
+.nav .utente {
+    margin-left: auto;
+}
+
+.nav .utente {
+    margin-left: 10px;
+}
 
 
 
