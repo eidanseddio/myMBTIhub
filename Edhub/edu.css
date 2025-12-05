@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f8;
+    margin: 0;
+    color: #222;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    margin: 12px 0;
+}
+
+/*navbar*/
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #e9f0ff;
+    padding: 12px 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #222;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #0232E0;
+    transform: translateY(-1px);
+}
+
+/*header*/
+.header-a {
+    background-color: #F5E14B;
+    text-align: center;
+    color: #0232E0;
+    padding: 25px 15px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.header-a h1 {
+    font-size: 32px;
+}
+
+.header-a p {
+    color: #444;
+    margin-top: 6px;
+    font-size: 17px;
+}
+
+/*Main page */
+.main-content {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+section h3 {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.highlight-box {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    margin: 25px 0;
+}
+
+/*fondo pagina*/
+.next-lesson {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.next-lesson a {
+    text-decoration: none;
+    color: #0232E0;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.next-lesson a:hover {
+    color: #001f90;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 35px 0;
+    background-color: #fafafa;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #0232E0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-content {
+        margin: 20px auto;
+    }
+}
+
+
+/* aggiunta di un accento più blue */
+.summary a {
+    color: #0232E0;
+    font-weight: 500;
+}
+
+.sum-title {
+    color: #0232E0;
+}
+
+
+h2 {
+    color: #0232E0;
+}
+
+
+a {
+    color: #0232E0;
+}
+
+
+a:hover {
+    color: #001f90;
+}
